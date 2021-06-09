@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f9f7f7;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #cca8e9;
+  border-width: 11px;
+  width:7%;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 5rem;
+  width: 300;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.625rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 3.625rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 80px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #a6e3e9;
+  margin: 100px auto 0 auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 280px;
+  left: 330px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 120px;
+  right: 330px;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  padding: 100px;
+}
+
+.mountain {
+  margin-top: 80px;
+}
+
+.My-Skills {
+  margin: 100px auto 30px auto;
+  padding: 100px;
+}
+.skills-table {
+  margin: 100px auto 100px auto;
+  padding: 50px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.skills {
+  margin: 100px auto 100px auto;
+  height: 25%;
+  width: 25%;
+}
+
+.contact-me {
+  margin: 100px; auto 0 auto;
+  padding: 100px;
+}
+
+.last-text {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #14405c);
+  background-image: -moz-linear-gradient(top, #0099ff, #14405c);
+  background-image: -ms-linear-gradient(top, #0099ff, #14405c);
+  background-image: -o-linear-gradient(top, #0099ff, #14405c);
+  background-image: linear-gradient(to bottom, #0099ff, #14405c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cecfc;
+  background-image: -webkit-linear-gradient(top, #3cecfc, #3498db);
+  background-image: -moz-linear-gradient(top, #3cecfc, #3498db);
+  background-image: -ms-linear-gradient(top, #3cecfc, #3498db);
+  background-image: -o-linear-gradient(top, #3cecfc, #3498db);
+  background-image: linear-gradient(to bottom, #3cecfc, #3498db);
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  text-decoration-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+}
